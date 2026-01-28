@@ -1,0 +1,587 @@
+{
+  "health_insurance": [
+    {
+      "id": "health_001",
+      "name": "Star Health Young Star",
+      "provider": "Star Health Insurance",
+      "type": "Individual",
+      "sum_insured_options": [300000, 500000, 1000000, 1500000, 2500000],
+      "premium_range": {
+        "min": 5000,
+        "max": 25000,
+        "note": "Varies by age and sum insured"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 45
+      },
+      "features": [
+        "No pre-policy medical checkup up to 45 years",
+        "Day care procedures covered from day 1",
+        "Annual health checkup benefit",
+        "No claim bonus up to 100%",
+        "Automatic restoration of sum insured",
+        "Ambulance charges covered up to ₹2,500"
+      ],
+      "waiting_period_days": 30,
+      "pre_existing_waiting_years": 3,
+      "room_rent_limit": "No limit",
+      "copay_percent": 0,
+      "network_hospitals": 14000,
+      "claim_settlement_ratio": 0.87,
+      "best_for": ["young_professionals", "first_time_buyers", "single_individuals"],
+      "exclusions": [
+        "Cosmetic surgery",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "tax_benefit": "Section 80D - up to ₹25,000 (₹50,000 for senior citizens)"
+    },
+    {
+      "id": "health_002",
+      "name": "HDFC Ergo Optima Secure",
+      "provider": "HDFC Ergo",
+      "type": "Family Floater",
+      "sum_insured_options": [500000, 1000000, 1500000, 2500000, 5000000],
+      "premium_range": {
+        "min": 12000,
+        "max": 55000,
+        "note": "Varies by family size and eldest member age"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "max_family_size": 6,
+      "features": [
+        "Restore benefit - SI restored if exhausted",
+        "No room rent limit",
+        "Unlimited automatic recharge",
+        "OPD cover available",
+        "Pre and post hospitalization - 60/180 days",
+        "Organ donor expenses covered"
+      ],
+      "waiting_period_days": 30,
+      "pre_existing_waiting_years": 4,
+      "room_rent_limit": "No limit",
+      "copay_percent": 0,
+      "network_hospitals": 13000,
+      "claim_settlement_ratio": 0.91,
+      "best_for": ["families", "comprehensive_coverage", "parents_coverage"],
+      "exclusions": [
+        "Dental treatment (unless from accident)",
+        "Maternity in first 2 years",
+        "HIV/AIDS"
+      ],
+      "tax_benefit": "Section 80D - up to ₹25,000 (₹50,000 for senior citizens)"
+    },
+    {
+      "id": "health_003",
+      "name": "Care Health Supreme",
+      "provider": "Care Health Insurance",
+      "type": "Family Floater",
+      "sum_insured_options": [500000, 1000000, 2000000, 3000000, 6000000],
+      "premium_range": {
+        "min": 10000,
+        "max": 60000,
+        "note": "Competitive pricing for families"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "max_family_size": 6,
+      "features": [
+        "Unlimited restoration of sum insured",
+        "No room rent capping",
+        "Air ambulance cover up to ₹5 lakhs",
+        "Annual health checkup",
+        "No claim bonus up to 150%",
+        "Cumulative bonus preserved even after claim"
+      ],
+      "waiting_period_days": 30,
+      "pre_existing_waiting_years": 3,
+      "room_rent_limit": "No limit",
+      "copay_percent": 0,
+      "network_hospitals": 14200,
+      "claim_settlement_ratio": 0.89,
+      "best_for": ["families", "value_for_money", "high_coverage"],
+      "tax_benefit": "Section 80D"
+    },
+    {
+      "id": "health_004",
+      "name": "Niva Bupa Health Companion",
+      "provider": "Niva Bupa",
+      "type": "Individual/Family Floater",
+      "sum_insured_options": [300000, 500000, 1000000, 2000000, 5000000, 10000000],
+      "premium_range": {
+        "min": 6000,
+        "max": 80000
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "max_family_size": 20,
+      "features": [
+        "Covers up to 20 family members",
+        "Consumables covered",
+        "No room rent limit",
+        "Second opinion benefit",
+        "OPD benefit available",
+        "Worldwide emergency coverage"
+      ],
+      "waiting_period_days": 30,
+      "pre_existing_waiting_years": 3,
+      "room_rent_limit": "No limit",
+      "copay_percent": 0,
+      "network_hospitals": 10000,
+      "claim_settlement_ratio": 0.93,
+      "best_for": ["large_families", "joint_families", "comprehensive_coverage"],
+      "tax_benefit": "Section 80D"
+    },
+    {
+      "id": "health_005",
+      "name": "Care Health Super Top-up",
+      "provider": "Care Health Insurance",
+      "type": "Super Top-up",
+      "sum_insured_options": [1000000, 2500000, 5000000, 10000000],
+      "deductible_options": [300000, 500000, 1000000, 2500000],
+      "premium_range": {
+        "min": 2500,
+        "max": 18000,
+        "note": "Very affordable for high coverage"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "features": [
+        "Affordable way to increase coverage",
+        "Works on top of existing base policy",
+        "Same benefits as regular health plan",
+        "Deductible can be met from base policy claim"
+      ],
+      "waiting_period_days": 30,
+      "pre_existing_waiting_years": 3,
+      "copay_percent": 0,
+      "network_hospitals": 14200,
+      "claim_settlement_ratio": 0.89,
+      "best_for": ["existing_policyholders", "budget_conscious", "high_coverage_seekers"],
+      "note": "Requires a base health insurance policy"
+    },
+    {
+      "id": "health_006",
+      "name": "Star Health Senior Citizens Red Carpet",
+      "provider": "Star Health Insurance",
+      "type": "Individual",
+      "sum_insured_options": [100000, 200000, 300000, 500000, 1000000, 1500000, 2500000],
+      "premium_range": {
+        "min": 12000,
+        "max": 65000,
+        "note": "For senior citizens 60+ years"
+      },
+      "age_range": {
+        "min": 60,
+        "max": 75
+      },
+      "entry_age_max": 75,
+      "features": [
+        "Specifically designed for senior citizens",
+        "Pre-existing diseases covered after 1 year",
+        "Cataract surgery covered",
+        "Automatic increase in sum insured",
+        "Day care treatments covered",
+        "Annual health checkup"
+      ],
+      "waiting_period_days": 30,
+      "pre_existing_waiting_years": 1,
+      "room_rent_limit": "1% of SI per day",
+      "copay_percent": 20,
+      "network_hospitals": 14000,
+      "claim_settlement_ratio": 0.87,
+      "best_for": ["senior_citizens", "parents", "retirement_planning"],
+      "tax_benefit": "Section 80D - up to ₹50,000 for senior citizens"
+    }
+  ],
+  "term_insurance": [
+    {
+      "id": "term_001",
+      "name": "ICICI Pru iProtect Smart",
+      "provider": "ICICI Prudential Life",
+      "cover_options": [5000000, 10000000, 20000000, 50000000, 100000000],
+      "premium_range": {
+        "min": 6000,
+        "max": 45000,
+        "note": "For 1 Cr cover, 30-year-old non-smoker male"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "policy_term_options": [10, 15, 20, 25, 30, 35, 40],
+      "features": [
+        "Terminal illness benefit - lump sum payout",
+        "Accidental death benefit rider",
+        "Critical illness rider available",
+        "Income benefit option",
+        "Increasing cover option",
+        "Return of premium option available"
+      ],
+      "payout_options": ["Lump sum", "Monthly income", "Lump sum + Monthly income"],
+      "claim_settlement_ratio": 0.984,
+      "claim_settlement_time_days": 15,
+      "best_for": ["young_families", "income_replacement", "loan_protection"],
+      "tax_benefit": "Premium under 80C, Payout under 10(10D)",
+      "medical_tests": "Required above 50 lakhs cover for age 36+"
+    },
+    {
+      "id": "term_002",
+      "name": "HDFC Life Click 2 Protect Life",
+      "provider": "HDFC Life",
+      "cover_options": [5000000, 10000000, 25000000, 50000000, 100000000],
+      "premium_range": {
+        "min": 5500,
+        "max": 42000,
+        "note": "Competitive rates for non-smokers"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "policy_term_options": [10, 15, 20, 25, 30, 35, 40],
+      "features": [
+        "Life cover continues even after critical illness claim",
+        "11 critical illness cover option",
+        "Waiver of premium on disability",
+        "Accidental death benefit",
+        "Income benefit option",
+        "Option to increase cover at life events"
+      ],
+      "payout_options": ["Lump sum", "Income", "Income + Lump sum", "Increasing Income"],
+      "claim_settlement_ratio": 0.991,
+      "claim_settlement_time_days": 12,
+      "best_for": ["comprehensive_protection", "critical_illness_concern", "salaried_professionals"],
+      "tax_benefit": "Premium under 80C, Payout under 10(10D)"
+    },
+    {
+      "id": "term_003",
+      "name": "Max Life Smart Secure Plus",
+      "provider": "Max Life Insurance",
+      "cover_options": [5000000, 10000000, 25000000, 50000000, 100000000, 250000000],
+      "premium_range": {
+        "min": 5800,
+        "max": 50000
+      },
+      "age_range": {
+        "min": 18,
+        "max": 60
+      },
+      "policy_term_options": [10, 15, 20, 25, 30, 35, 40, 44],
+      "features": [
+        "Special exit value after 10 years",
+        "Accidental death benefit built-in",
+        "Cover for 64 critical illnesses",
+        "Waiver of premium on CI",
+        "Terminal illness benefit",
+        "Top-up option available"
+      ],
+      "payout_options": ["Lump sum", "Monthly income for 10 years", "Lump sum + Income"],
+      "claim_settlement_ratio": 0.995,
+      "claim_settlement_time_days": 10,
+      "best_for": ["high_networth", "business_owners", "key_person_insurance"],
+      "tax_benefit": "Premium under 80C, Payout under 10(10D)"
+    },
+    {
+      "id": "term_004",
+      "name": "LIC Tech Term",
+      "provider": "Life Insurance Corporation",
+      "cover_options": [5000000, 10000000, 20000000, 50000000],
+      "premium_range": {
+        "min": 7000,
+        "max": 55000,
+        "note": "LIC brand trust with online convenience"
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "policy_term_options": [10, 15, 20, 25, 30, 35, 40],
+      "features": [
+        "Government-backed LIC brand",
+        "Online purchase with lower premium",
+        "Accidental death benefit rider",
+        "Terminal illness benefit",
+        "Premium waiver benefit rider"
+      ],
+      "payout_options": ["Lump sum", "Monthly income", "Lump sum + Monthly income"],
+      "claim_settlement_ratio": 0.988,
+      "claim_settlement_time_days": 30,
+      "best_for": ["lic_loyalists", "government_trust", "simple_coverage"],
+      "tax_benefit": "Premium under 80C, Payout under 10(10D)"
+    },
+    {
+      "id": "term_005",
+      "name": "Tata AIA Sampoorna Raksha Promise",
+      "provider": "Tata AIA Life",
+      "cover_options": [5000000, 10000000, 25000000, 50000000, 75000000],
+      "premium_range": {
+        "min": 5200,
+        "max": 40000
+      },
+      "age_range": {
+        "min": 18,
+        "max": 65
+      },
+      "policy_term_options": [10, 15, 20, 25, 30, 35, 40, 50],
+      "features": [
+        "Terminal illness benefit with 100% payout",
+        "Increasing cover option",
+        "Critical illness cover for 40 conditions",
+        "Hospital cash benefit",
+        "Waiver of premium on disability"
+      ],
+      "payout_options": ["Lump sum", "Income", "Increasing Income"],
+      "claim_settlement_ratio": 0.989,
+      "claim_settlement_time_days": 14,
+      "best_for": ["young_earners", "budget_term_plan", "first_term_plan"],
+      "tax_benefit": "Premium under 80C"
+    }
+  ],
+  "motor_insurance": [
+    {
+      "id": "motor_001",
+      "name": "Bajaj Allianz Motor Insurance",
+      "provider": "Bajaj Allianz",
+      "type": "Comprehensive",
+      "vehicle_types": ["car", "two_wheeler"],
+      "features": [
+        "Own damage cover",
+        "Third party liability",
+        "Personal accident cover for owner-driver",
+        "24x7 roadside assistance",
+        "Cashless repairs at 6500+ garages",
+        "Quick claim settlement"
+      ],
+      "addons_available": [
+        "Zero depreciation",
+        "Engine protect",
+        "NCB protect",
+        "Return to invoice",
+        "Key replacement",
+        "Tyre protect"
+      ],
+      "claim_settlement_ratio": 0.89,
+      "cashless_garages": 6500,
+      "best_for": ["new_car_owners", "comprehensive_protection"],
+      "note": "IDV based on car's current market value"
+    },
+    {
+      "id": "motor_002",
+      "name": "HDFC Ergo Motor Insurance",
+      "provider": "HDFC Ergo",
+      "type": "Comprehensive",
+      "vehicle_types": ["car", "two_wheeler"],
+      "features": [
+        "Instant policy issuance",
+        "Own damage + Third party",
+        "Personal accident ₹15 lakhs",
+        "Spot claim settlement",
+        "Roadside assistance",
+        "Pick up and drop facility"
+      ],
+      "addons_available": [
+        "Zero depreciation",
+        "Engine and gearbox protect",
+        "Consumables cover",
+        "Daily allowance",
+        "Loss of personal belongings"
+      ],
+      "claim_settlement_ratio": 0.91,
+      "cashless_garages": 7500,
+      "best_for": ["quick_service", "digital_savvy", "claim_efficiency"],
+      "ncb_discount": "Up to 50% for 5 claim-free years"
+    },
+    {
+      "id": "motor_003",
+      "name": "ICICI Lombard Motor Insurance",
+      "provider": "ICICI Lombard",
+      "type": "Comprehensive",
+      "vehicle_types": ["car", "two_wheeler", "commercial"],
+      "features": [
+        "Comprehensive own damage cover",
+        "Third party property damage up to ₹7.5 lakhs",
+        "Personal accident cover",
+        "InstaSpect - instant claim inspection via video",
+        "Free towing up to 25 km",
+        "Emergency hotel accommodation"
+      ],
+      "addons_available": [
+        "Zero depreciation",
+        "Engine protect plus",
+        "Key and lock replacement",
+        "EMI protection",
+        "Windshield cover",
+        "Garage cash"
+      ],
+      "claim_settlement_ratio": 0.90,
+      "cashless_garages": 5700,
+      "best_for": ["tech_enabled_claims", "commercial_vehicles"],
+      "unique_feature": "InstaSpect for instant video claim assessment"
+    },
+    {
+      "id": "motor_004",
+      "name": "Digit Motor Insurance",
+      "provider": "Go Digit",
+      "type": "Comprehensive",
+      "vehicle_types": ["car", "two_wheeler"],
+      "features": [
+        "Simple and transparent policy",
+        "Own damage + Third party",
+        "7-day free cancellation",
+        "Repair anywhere in India",
+        "24x7 claim support",
+        "No inspection needed for renewal"
+      ],
+      "addons_available": [
+        "Zero depreciation (up to 5 years)",
+        "Return to invoice",
+        "Engine protect",
+        "Consumables cover",
+        "Personal belongings cover",
+        "Emergency transport"
+      ],
+      "claim_settlement_ratio": 0.92,
+      "cashless_garages": 4500,
+      "best_for": ["simple_process", "flexibility", "young_drivers"],
+      "unique_feature": "Most transparent claim process in industry"
+    },
+    {
+      "id": "motor_005",
+      "name": "Third Party Only - Mandatory Cover",
+      "provider": "Multiple Insurers",
+      "type": "Third Party",
+      "vehicle_types": ["car", "two_wheeler"],
+      "features": [
+        "Mandatory by law",
+        "Third party death/injury - Unlimited liability",
+        "Third party property damage - Up to ₹7.5 lakhs",
+        "Personal accident cover for owner-driver"
+      ],
+      "premium_fixed": {
+        "two_wheeler_below_75cc": 538,
+        "two_wheeler_75cc_to_150cc": 714,
+        "two_wheeler_150cc_to_350cc": 1366,
+        "two_wheeler_above_350cc": 2804,
+        "car_below_1000cc": 2094,
+        "car_1000cc_to_1500cc": 3416,
+        "car_above_1500cc": 7897
+      },
+      "best_for": ["budget_buyers", "old_vehicles", "minimum_legal_compliance"],
+      "note": "Prices are IRDAI fixed, same across all insurers"
+    }
+  ],
+  "travel_insurance": [
+    {
+      "id": "travel_001",
+      "name": "ICICI Lombard Travel Smart",
+      "provider": "ICICI Lombard",
+      "type": "International",
+      "coverage_options": {
+        "sum_insured_usd": [50000, 100000, 250000, 500000],
+        "trip_duration_days": [7, 15, 30, 45, 60, 90, 180, 365]
+      },
+      "premium_range": {
+        "min": 500,
+        "max": 25000,
+        "note": "Per trip, varies by duration and destination"
+      },
+      "features": [
+        "Medical expenses and hospitalization",
+        "Emergency medical evacuation",
+        "Trip cancellation/interruption",
+        "Baggage delay compensation",
+        "Passport loss assistance",
+        "24x7 worldwide assistance"
+      ],
+      "coverage_regions": ["Worldwide", "Schengen", "USA/Canada", "Asia"],
+      "best_for": ["frequent_travelers", "schengen_visa", "usa_canada_travel"],
+      "covid_coverage": "Available as add-on"
+    },
+    {
+      "id": "travel_002",
+      "name": "Tata AIG Travel Guard",
+      "provider": "Tata AIG",
+      "type": "International",
+      "coverage_options": {
+        "sum_insured_usd": [50000, 100000, 250000, 500000, 1000000],
+        "trip_duration_days": [7, 15, 30, 45, 60, 90, 180, 365]
+      },
+      "premium_range": {
+        "min": 450,
+        "max": 30000
+      },
+      "features": [
+        "Overseas medical treatment",
+        "Emergency dental treatment",
+        "Compassionate visit expenses",
+        "Trip delay - ₹5000 for every 6 hours",
+        "Adventure sports cover",
+        "Golfer's hole-in-one cover"
+      ],
+      "coverage_regions": ["Worldwide excluding USA", "USA/Canada", "Schengen"],
+      "best_for": ["adventure_travelers", "corporate_travel", "family_vacation"],
+      "student_plan_available": true
+    },
+    {
+      "id": "travel_003",
+      "name": "Bajaj Allianz Travel Infinity",
+      "provider": "Bajaj Allianz",
+      "type": "International",
+      "coverage_options": {
+        "sum_insured_usd": [50000, 100000, 250000, 500000],
+        "trip_duration_days": [7, 15, 30, 45, 60, 180, 365]
+      },
+      "premium_range": {
+        "min": 400,
+        "max": 22000
+      },
+      "features": [
+        "Medical expenses up to $500,000",
+        "Home burglary cover during travel",
+        "Trip cancellation due to terrorism",
+        "Hijack daily allowance",
+        "Sponsor protection",
+        "Study interruption cover for students"
+      ],
+      "coverage_regions": ["Worldwide", "Asia Pacific", "Schengen"],
+      "best_for": ["students_abroad", "budget_travelers", "senior_travelers"],
+      "senior_citizen_plan": "Available up to 85 years"
+    },
+    {
+      "id": "travel_004",
+      "name": "Care Health Travel Insurance",
+      "provider": "Care Health",
+      "type": "Domestic/International",
+      "coverage_options": {
+        "sum_insured_inr_domestic": [100000, 200000, 500000],
+        "sum_insured_usd_international": [50000, 100000, 250000]
+      },
+      "premium_range": {
+        "min": 200,
+        "max": 15000
+      },
+      "features": [
+        "Medical emergency coverage",
+        "Trip delay compensation",
+        "Loss of checked baggage",
+        "Loss of passport",
+        "Personal accident",
+        "24x7 assistance"
+      ],
+      "coverage_regions": ["India", "Worldwide"],
+      "best_for": ["domestic_travelers", "pilgrimage", "weekend_trips"],
+      "domestic_plan_available": true
+    }
+  ]
+}
